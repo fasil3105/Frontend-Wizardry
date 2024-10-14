@@ -1,0 +1,105 @@
+@media(max-width:375px){
+    .section{
+        width:300px;
+    }
+    
+
+}
+  
+  
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+
+}
+body{
+ 
+ 
+  font-family: "DM Sans", sans-serif;
+  font-optical-sizing: auto;
+  
+  font-style: normal;
+
+}
+
+
+
+.container{
+    width:100%;
+    height:100vh;
+    background-color: hsl(27, 66%, 92%);
+    display: flex;
+    justify-content: center;
+    align-items:center;
+}
+.section{
+    min-width:px;
+    padding:10px 20px;
+    margin:15px;
+  
+}
+.nav{
+    padding:20px;
+    background-color:  hsl(10, 79%, 65%);
+    border-radius: 12px;
+    color:#fff;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+}
+.amnt h5{
+    font-weight: 300;
+}
+.amnt h2{
+    margin-top: 5px;
+}
+.result{
+    background-color: hsl(33, 100%, 98%);
+    margin: 15px 0;
+    padding:20px;
+    border-radius: 12px;
+}
+.result h3{
+    color:hsl(25, 47%, 15%);
+    margin-bottom: 20px;
+}
+#barChart{
+    width:100%;
+    height:200px;
+    
+}
+.line{
+    background-color: hsl(27, 66%, 92%);
+    width:100%;
+    height:2px;
+    margin:15px 0;
+   
+}
+.total {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin:10px 5px;
+}
+
+.per{
+    margin-top:1em;
+}
+.total div .val1{
+    font-weight: 700;
+    font-size: 1.8rem;
+    color:hsl(25, 47%, 15%);
+}
+.total div .val2{
+    color:hsl(25, 47%, 15%);
+    text-align: right;
+    font-weight: 700;
+}
+.total div .para{
+    font-size: 0.7rem;
+    color:  hsl(28, 10%, 53%);
+    font-weight: 400;
+}
